@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://mtm-007.github.io',
                 'git_url': 'https://github.com/mtm-007/nbdev',
                 'lib_path': 'nbdev'},
-  'syms': {'nbdev.core': {'nbdev.core.foo': ('core.html#foo', 'nbdev/core.py')}}}
+  'syms': { 'nbdev.card': { 'nbdev.card.Card': ('card.html#card', 'nbdev/card.py'),
+                            'nbdev.card.Card.__init__': ('card.html#card.__init__', 'nbdev/card.py'),
+                            'nbdev.card.Card.__str__': ('card.html#card.__str__', 'nbdev/card.py')},
+            'nbdev.core': {'nbdev.core.foo': ('core.html#foo', 'nbdev/core.py')}}}
