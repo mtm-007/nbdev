@@ -7,5 +7,4 @@ d = { 'settings': { 'branch': 'main',
                 'lib_path': 'nbdev'},
   'syms': { 'nbdev.card': { 'nbdev.card.Card': ('card.html#card', 'nbdev/card.py'),
                             'nbdev.card.Card.__init__': ('card.html#card.__init__', 'nbdev/card.py'),
-                            'nbdev.card.Card.__str__': ('card.html#card.__str__', 'nbdev/card.py')},
-            'nbdev.core': {'nbdev.core.foo': ('core.html#foo', 'nbdev/core.py')}}}
+                            'nbdev.card.Card.__str__': ('card.html#card.__str__', 'nbdev/card.py')}}}
